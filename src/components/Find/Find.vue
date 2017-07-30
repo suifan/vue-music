@@ -62,7 +62,7 @@ export default {
       })
   },
   mounted() {
-    this.$store.commit('changeLinkBorderIndex', 2);
+    this.$store.commit('changeLinkBorderIndex', 2)
   },
   computed: {
     musicData() {
@@ -142,7 +142,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .showRouter-enter-active {
   transition: all .3s ease;
 }
@@ -159,15 +159,15 @@ export default {
     width: 100%;
     height: 100%;
     flex:10;
+    position:absolute;
+    top:80px;
+    background:#fff;
     overflow: auto;
-
     .search-input {
       position: relative;
       background-color: rgba(0, 0, 0, .1);
       text-align: center;
       border-bottom: 1px solid rgba(0, 0, 0, .1);
-
-
       .input {
         position: relative;
         width: 90%;
@@ -192,6 +192,7 @@ export default {
           height: 100%;
           font-size: 1rem;
           outline: none;
+          font-family:'Microsoft Yahei';
         }
         i.icon-cancel {
           position: absolute;
@@ -346,11 +347,12 @@ export default {
             text-overflow: ellipsis;
             white-space: nowrap;
             overflow: hidden;
+            font-size:16px;
           }
           .music-singer {
             padding-top: 3px;
-            font-size: 50%;
             color: gray;
+            font-size:14px;
           }
           i {
             position: absolute;

@@ -195,7 +195,6 @@ export default {
     width: 100%;
     height: 100%;
 
-
     .header {
       position: relative;
       z-index: 1;
@@ -266,8 +265,8 @@ export default {
         color: #BDBDBD;
         padding: 0;
         margin: 0;
-        height: auto;
-        max-height: 100%;
+        height:auto;
+        max-height:88%;
         overflow: auto;
         .fade-enter-active {
           transition: all .3s ease;
@@ -313,27 +312,27 @@ export default {
       img {
         position: absolute;
         z-index: 0;
-        width: 100%;
+        left:0;
         height: 100%;
         filter: brightness(65%) blur(8px);
       }
       .img {
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
         img {
           position: relative;
           filter: blur(0);
           z-index: 2;
           width: 100%;
           height: 100%;
-          border-radius: 150px;
+          border-radius: 50%;
         }
       }
       .skin {
         position: absolute;
         display: flex;
         flex-direction: column;
-        bottom: 50px;
+        bottom: 70px;
         right: 15px;
         width: 30px;
         .skin-colors {
@@ -398,6 +397,7 @@ export default {
         align-items: center;
         width: 100%;
         bottom: 8px;
+        left:0;
         text-align: center;
         color: rgba(255, 255, 255, .8);
         .start-time {
@@ -440,7 +440,10 @@ export default {
     .footer {
       flex: 1;
       display: flex;
-      position: relative;
+      position: absolute;
+      bottom:0;
+      width:100%;
+      height:50px;
       z-index: 1;
       padding-left: 40px;
       padding-right: 40px;

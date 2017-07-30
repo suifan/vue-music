@@ -56,7 +56,7 @@ export default {
     this.getOne();
   },
   mounted() {
-    this.$store.commit('changeLinkBorderIndex', 3);
+    this.$store.commit('changeLinkBorderIndex', 3)
   },
   data() {
     return {
@@ -126,12 +126,15 @@ export default {
   opacity: 0;
 }
   .social {
-    position: relative;
+    position: absolute;
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 100%;
     flex:7;
+    position:absolute;
+    background:#FFFDFD !important;
+    top:80px;
     overflow: auto;
     background-color: rgba(0, 0, 0, .05);
     padding-bottom: 200px;
@@ -220,13 +223,12 @@ export default {
       flex: 1;
       justify-content: center;
       text-align: center;
-      background-color: none;
+      background-color: #fff;
       width: 100%;
       padding: 10px 0;
       a {
         color: black;
         position: relative;
-        // background-color: gray;
       }
       .gray {
         color: gray;

@@ -145,12 +145,12 @@ export default {
     }
     .settings {
       flex: 4.2;
-      position: relative;
+      position: absolute;
       height: 100%;
+      width:60%;
       background: white;
       border-right: 1px solid gray;
       box-shadow: 2px 0 20px gray;
-
       .content {
         height: 85%;
       }

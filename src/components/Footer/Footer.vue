@@ -132,6 +132,8 @@ export default {
     background: #B72712;
     width: 100%;
     height: 70px;
+    position:absolute;
+    bottom:0;
     text-align: center;
 
     .mini-music {
