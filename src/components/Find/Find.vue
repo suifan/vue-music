@@ -324,13 +324,14 @@ export default {
           display: flex;
           justify-content: center;
           align-items: center;
-
           width: 60px;
           height: 60px;
+          margin-left:20px;
           img {
             display: inline-block;
-            width: 90%;
-            height: 90%;
+            width: 50px;
+            height: 50px;
+            border-radius:50%;
             background: url(./music.svg) no-repeat;
             background-size: contain;
           }

@@ -19,7 +19,7 @@ Vue全家桶打造的一款音乐播放器
 
 **SASS(SCSS)**：css预处理语言
 
-**Express**(上线版本是**Koa2**)：因为vue-cli是用的Express做服务器，所以开源的开发版本是Express，自己生产环境用的是Koa2。 😜 
+**Express**(上线版本是**Koa2**)：因为vue-cli是用的Express做服务器，所以开源的开发版本是Express，自己生产环境用的是Koa2。 
 
 **Webpack**：自动化构建工具，大部分配置vue-cli脚手架已经弄好了，很方便。
 
